@@ -1,0 +1,15 @@
+Package: nowcastr
+Type: Package
+Title: Calculates EPA Nowcast Number
+Version: 0.1.0
+Author: Owen O'Connor
+Maintainer: Owen O'Connor <oroconnor@gmail.com>
+Description: Takes a dataframe containing air quality observations and returns a Nowcast concentration 
+    number using EPA's Nowcast formula. 
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  tidyverse,
+  lubridate
+RoxygenNote: 7.1.2
